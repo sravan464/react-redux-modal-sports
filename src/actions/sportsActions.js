@@ -3,8 +3,14 @@
  */
 import * as types from './actionTypes'
 
-export function createCourse(course) {
+export function openModal(payload) {
   return {
-    type : types.CREATE_COURSE , course
+    type : types.OPEN_MODAL ,payload
+  }
+}
+
+export function closeModal(payload) {
+  return {
+    type : types.CLOSE_MODAL, payload
   }
 }

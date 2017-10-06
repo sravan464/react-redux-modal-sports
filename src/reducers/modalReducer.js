@@ -1,10 +1,12 @@
 /**
  * Created by sravankumarganji on 9/28/17.
  */
-export default function courseReducer (state =[],action) {
+export default function modalReducer (state ={isModalOpen:false},action) {
   switch (action.type){
-    case 'CREATE_COURSE' :
-      return [...state,Object.assign({},action.course)]
+    case 'OPEN_MODAL' :
+      return Object.assign({},action.payload)
+    case 'CLOSE_MODAL' :
+      return Object.assign({},action.payload)
     default :
       return state;
   }
