@@ -67,12 +67,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sravan464/react-redux-authors.git"
+    "url": "git+https://github.com/sravan464/bofa.git"
   },
   "author": "sravan kumar ganji",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sravan464/react-redux-authors/issues"
+    "url": "https://github.com/sravan464/bofa/issues"
   },
-  "homepage": "https://github.com/sravan464/react-redux-authors#readme"
+  "homepage": "https://github.com/sravan464/bofa#readme"
 }
