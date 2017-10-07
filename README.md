@@ -1,2 +1,2 @@
-# react-redux-authors
+# react-redux-modal-sports
 # bofa
